@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlantCare – Plant Disease Awareness</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Sticky Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+          <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+        </svg>
+        <span>PlantCare</span>
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="diseases.html">Diseases</a>
+        <a href="prevention.html">Prevention</a>
+        <a href="project.html">Project</a>
+        <a href="about.html">About Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <!-- Replace 'images/hero.jpg' with a high-resolution healthy green plant/botanical background photo -->
+  <section class="hero" style="background-image: url('images/hero.jpg');">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content fade-in">
+      <span class="badge">Plant Health &amp; Disease Awareness</span>
+      <h1>Protecting Plants, Preserving Life</h1>
+      <p>Discover common plant diseases, their symptoms, causes and effective ways to protect plants and promote healthy growth.</p>
+      <div class="hero-buttons">
+        <a href="diseases.html" class="btn btn-primary">Explore Plant Diseases</a>
+        <a href="prevention.html" class="btn btn-outline">Learn Prevention</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Introduction Section -->
+  <section class="section intro-section">
+    <div class="container">
+      <div class="intro-grid fade-in">
+        <div class="intro-text">
+          <span class="section-subtitle">Why Plant Health Matters</span>
+          <h2>Safeguarding Agriculture, Gardens, and Ecosystems</h2>
+          <p>Healthy plants form the foundation of life on Earth—producing the oxygen we breathe, sustaining global food supplies, and stabilizing natural ecosystems. Yet every year, fungal, bacterial, and viral pathogens threaten crops, ornamental gardens, and native flora.</p>
+          <p>Understanding how to recognize early warning signs of plant diseases empowers farmers, home gardeners, and communities to intervene responsibly. Early identification reduces crop loss, minimizes unnecessary chemical usage, and promotes resilient, sustainable greenery for generations to come.</p>
+          <div class="stats-row">
+            <div class="stat-item">
+              <h3>8+</h3>
+              <p>Major Pathogens</p>
+            </div>
+            <div class="stat-item">
+              <h3>8</h3>
+              <p>Preventive Strategies</p>
+            </div>
+            <div class="stat-item">
+              <h3>100%</h3>
+              <p>Eco-Conscious Focus</p>
+            </div>
+          </div>
+        </div>
+        <div class="intro-image">
+          <!-- Replace 'images/intro-plant.jpg' with a close-up photo of healthy green leaves or plant inspection -->
+          <img src="images/intro-plant.jpg" alt="Healthy green leaves in sunlight">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Highlights Section -->
+  <section class="section bg-cream">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-subtitle">Explore Our Platform</span>
+        <h2>Comprehensive Plant Care Resources</h2>
+        <p>Navigate through our structured academic guide designed to simplify plant pathology and practical care.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          </div>
+          <h3>Disease Identification</h3>
+          <p>Examine visual symptoms, underlying causes, and pathogen profiles for eight widespread plant diseases.</p>
+          <a href="diseases.html" class="card-link">View Diseases &rarr;</a>
+        </div>
+
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Prevention &amp; Control</h3>
+          <p>Learn practical, sustainable habits—from proper watering and soil care to crop rotation and hygiene.</p>
+          <a href="prevention.html" class="card-link">Explore Prevention &rarr;</a>
+        </div>
+
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          </div>
+          <h3>Field Observations</h3>
+          <p>Explore our academic project objectives and browse real-world photographic observations from our study.</p>
+          <a href="project.html" class="card-link">See Our Project &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  
+
+  <script src="js/script.js"></script>
+</body>
+</html>
